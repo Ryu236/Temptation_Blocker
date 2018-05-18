@@ -1,0 +1,11 @@
+{
+    "name": "Temptation Blocker",
+    "version": "1.0",
+    "description": "This extension block the sites like Twitter, Facebook, Amazon, etc...",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
